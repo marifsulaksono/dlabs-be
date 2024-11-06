@@ -14,23 +14,23 @@ Proyek ini bertujuan untuk membangun aplikasi web yang aman dan skalabel dengan 
 Sebelum menjalankan projek ini pastikan php yang digunakan minimal versi 8.2. 
 
 Berikut tahap untuk setup projek :
-- Clone this repository
+Clone this repository
 ```
-  git clone https://github.com/marifsulaksono/dlabs-laravel.git
+git clone https://github.com/marifsulaksono/dlabs-laravel.git
 ```
-- Masuk ke direktori projek
+Masuk ke direktori projek
 ```
 cd dlabs-laravel
 ```
-- Instal dependency laravel menggunakan perintah
+Instal dependency laravel menggunakan perintah
 ```
 composer install
 ```
-- Copy `.env.example` menjadi `.env` dengan perintah
+Copy `.env.example` menjadi `.env` dengan perintah
 ```
 cp .env.example .env
 ```
-- Konfigurasi Database
+Konfigurasi Database
 Sesuaikan konfigurasi database pada file `.env`
 ```
 DB_CONNECTION=mysql
@@ -50,19 +50,19 @@ JWT_SECRET=your_jwt_secret
 JWT_ALGO=HS256
 JWT_SHOW_BLACKLIST_EXCEPTION=true
 ```
-- Generate table menggunakan migration
+Generate table menggunakan migration
 ```
 php artisan migrate
 ```
-- Generate data menggunakan seeder
+Generate data menggunakan seeder
 ```
 php artisan db:seed
 ```
-- Generate token jwt
+Generate token jwt
 ```
 php artisan jwt:secret
 ```
-- Menjalankan projek laravel
+Menjalankan projek laravel
 ```
 php artisan serve
 ```
