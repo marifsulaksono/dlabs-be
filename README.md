@@ -80,6 +80,9 @@ Pastikan untuk menjalankan perintah berikut sebelum melakukan commit agar kode t
 vendor/bin/pint
 ``` 
 
+## API Documentation
+Untuk melihat dokumentasi API, dapat dilihat pada [link berikut](https://documenter.getpostman.com/view/30332593/2sAY517fPt)
+
 # Contact
 For more information or to report issues, please contact me at:
 
